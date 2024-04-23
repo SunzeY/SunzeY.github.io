@@ -69,14 +69,21 @@
     <p class="content is-size-6 has-text-left">
     <img src="images/teaser.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p>
     <p align="left">
-      3D content creation from a single image is a long-standing yet highly desirable task. Recent advances introduce 2D diffusion priors, yielding reasonable results. However, existing methods are not hyper-realistic enough for post-generation usage, as users cannot view, render and edit the resulting 3D content from a full range. 
+      <!-- 3D content creation from a single image is a long-standing yet highly desirable task. Recent advances introduce 2D diffusion priors, yielding reasonable results. However, existing methods are not hyper-realistic enough for post-generation usage, as users cannot view, render and edit the resulting 3D content from a full range. 
       To address these challenges, we introduce <strong><em>HyperDreamer</em></strong> with several key designs and appealing properties:
       <b>1) Viewable:</b> 360° mesh modeling with high-resolution textures enables the creation of visually compelling 3D models from a full range of observation points.
       <b>2) Renderable:</b> Fine-grained semantic segmentation and data-driven priors are incorporated as guidance to learn reasonable albedo, roughness, and specular properties of the materials, enabling semantic-aware arbitrary material estimation.
       <b>3) Editable:</b> For a generated model or their own data, users can interactively select any region via a few clicks and efficiently edit the texture with text-based guidance.
       Extensive experiments demonstrate the effectiveness of <strong><em>HyperDreamer</em></strong> in modeling region-aware materials with high-resolution textures and enabling user-friendly editing. 
-      We believe that <strong><em>HyperDreamer</em></strong> holds promise for advancing 3D content creation and finding applications in various domains.
+      We believe that <strong><em>HyperDreamer</em></strong> holds promise for advancing 3D content creation and finding applications in various domains. -->
+      Physically realistic materials are pivotal in augmenting the realism of 3D assets across various applications and lighting conditions. However, existing 3D assets and generative models often lack authentic material properties. Manual assignment of materials using graphic software is a tedious and time-consuming task. 
+      In this paper, we exploit advancements in Multimodal Large Language Models (MLLMs), particularly GPT-4V, to present a novel approach, \textbf{Make-it-Real}: 
+      <b>1)</b> We demonstrate that GPT-4V can effectively recognize and describe materials, allowing the construction of a detailed material library. 
+      <b>2)</b> Utilizing a combination of visual cues and hierarchical text prompts, GPT-4V precisely identifies and aligns materials with the corresponding components of 3D objects. 
+      <b>3)</b> The correctly matched materials are then meticulously applied as reference for the new SVBRDF material generation according to the original diffuse map, significantly enhancing their visual authenticity. 
+      Make-it-Real offers a streamlined integration into the 3D content creation workflow, showcasing its utility as an essential tool for developers of 3D assets.
     </p>
+
 
     
     <!-- results (videos) -->
