@@ -11,7 +11,7 @@
   <!-- model viewer -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
   <title>
-    HyperDreamer
+    Make-it-Real
   </title>
   <!-- <link rel="icon" href="icon.ico"> -->
 </head>
@@ -110,8 +110,6 @@
     <video muted autoplay loop> <source src="videos/editing2.mp4" type="video/mp4"> </video>
     <video muted autoplay loop> <source src="videos/editing3.mp4" type="video/mp4"> </video>
 
-
-
     <!-- <p class="title is-3 mt-5 has-text-centered"> Optimization Progress </p>
     <table class="table">
       <tbody>
@@ -179,5 +177,15 @@
 
 
   </section>
+<title>Video Split View</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+    <video id="video1" src="single_3D_1.mp4" autoplay loop></video>
+    <video id="video2" src="single_3D_2.mp4" autoplay loop></video>
+    <div id="slider"></div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
