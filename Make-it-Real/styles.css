@@ -1,30 +1,48 @@
-#container {
-    position: relative;
-    width: 100%;
-    height: 500px; /* Adjust based on your needs */
-    overflow: hidden;
+/* 主要的行布局样式 */
+.my-video-row {
+    display: flex;
+    justify-content: space-between; /* 确保容器之间有均匀的间距 */
+    align-items: center; /* 垂直居中每个容器 */
+    margin: 20px 0; /* 添加一些顶部和底部的边距 */
+    padding: 0 20px; /* 左右填充确保在屏幕边缘有空间 */
 }
 
-#video-container {
+/* 单个容器的样式 */
+.my-video-container {
+    position: relative;
+    width: 24%; /* 四个容器，每个约占宽度的 25%，留有间隙 */
+    height: 300px; /* 统一高度 */
+    overflow: hidden; /* 隐藏溢出的视频 */
+}
+
+/* 视频容器样式，确保视频填满容器 */
+.my-video-video-container {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-video {
+/* 视频标签的样式，确保覆盖整个容器 */
+.my-video-video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* 覆盖整个父元素，保持宽高比 */
 }
 
-#slider {
+/* 滑块的样式 */
+.my-video-slider {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 5px; /* Slider width */
-    background-color: red;
-    cursor: ew-resize;
+    width: 2px; /* 滑块的宽度 */
+    background-color: red; /* 滑块的颜色 */
+    cursor: ew-resize; /* 改变鼠标光标的外观以提示可以左右拖动 */
+}
+
+/* 滑块悬停效果 */
+.my-video-slider:hover {
+    background-color: #FF6347; /* 悬停时变为浅红色 */
 }

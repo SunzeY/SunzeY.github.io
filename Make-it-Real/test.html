@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -9,11 +9,88 @@
 <body>
 <div id="container">
     <div id="video-container">
-        <video id="video1" src="videos\single_3D_1.mp4" autoplay loop muted></video>
-        <video id="video2" src="videos\single_3D_2.mp4" autoplay loop muted></video>
+        <video id="video1" src="videos/paoqiang/paoqiang_1.mp4" autoplay loop muted></video>
+        <video id="video2" src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
     </div>
     <div id="slider"></div>
 </div>
+<script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Split View with Clip Path</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="video-row">
+    <!-- 循环4次，每个 container 对应一个视频和滑块 -->
+    <div class="container" id="container1_1">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_1.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <div class="container" id="container1_2">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_2.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <div class="container" id="container1_3">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_3.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <div class="container" id="container1_4">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_4.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+</div>
+
+<div class="video-row">
+    <!-- 循环4次，每个 container 对应一个视频和滑块 -->
+    <div class="container" id="container2_1">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_1.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <div class="container" id="container2_2">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_2.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <div class="container" id="container2_3">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_3.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+    <div class="container" id="container2_4">
+        <div class="video-container">
+            <video src="videos/paoqiang/paoqiang_4.mp4" autoplay loop muted></video>
+            <video src="videos/paoqiang/paoqiang_ori.mp4" autoplay loop muted></video>
+        </div>
+        <div class="slider"></div>
+    </div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
