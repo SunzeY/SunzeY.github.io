@@ -51,7 +51,7 @@
         <a class="button is-dark" href="https://arxiv.org/abs/2312.04543" role="button" target="_blank"> <span class="icon"> <ion-icon name="document-outline"></ion-icon> </span> <span> Paper </span>  </a>
       </span>
       <span class="icon-text mx-1">
-        <a class="button is-dark" href="https://github.com/wutong16/HyperDreamer" role="button" target="_blank"> <span class="icon"> <ion-icon name="logo-github"></ion-icon> </span> <span> Code </span> </a>
+        <a class="button is-dark" href="https://github.com/Aleafy/Make_it_Real/" role="button" target="_blank"> <span class="icon"> <ion-icon name="logo-github"></ion-icon> </span> <span> Code </span> </a>
       </span>
       <span class="icon-text mx-1">
         <a class="button is-dark" target="_blank"> <span class="icon"> <ion-icon name="color-wand-outline"></ion-icon> </span> <span> Demo(Coming Soon) </span> </a>
@@ -62,10 +62,17 @@
 
   <!-- main container -->
   <div class="container is-max-desktop has-text-centered">
+    <p class="title is-3 mt-5 has-text-centered"> Video </p>
+    <div class="publication-video">
+      <!-- <iframe src="https://www.youtube.com/embed/UAUJNFJSbiI?rel=0&amp;showinfo=0"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+      <iframe src="https://www.youtube.com/embed/O8YwjtMqWHg?rel=0&amp;showinfo=0"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
     <!-- abstract -->
     <p class="title is-3 mt-5 has-text-centered"> Abstract </p>
     <p class="content is-size-6 has-text-left">
-    <img src="images/teaser.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p>
+    <!-- <img src="images/teaser.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p> -->
     <p align="left">
       Physically realistic materials are pivotal in augmenting the realism of 3D assets across various applications and lighting conditions. However, existing 3D assets and generative models often lack authentic material properties. Manual assignment of materials using graphic software is a tedious and time-consuming task. 
       In this paper, we exploit advancements in Multimodal Large Language Models (MLLMs), particularly GPT-4V, to present a novel approach, <b>Make-it-Real</b>: 
@@ -77,13 +84,7 @@
 
 
     <!-- results (videos) -->
-    <p class="title is-3 mt-5 has-text-centered"> Video </p>
-    <div class="publication-video">
-      <!-- <iframe src="https://www.youtube.com/embed/UAUJNFJSbiI?rel=0&amp;showinfo=0"
-              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-      <iframe src="https://www.youtube.com/embed/O8YwjtMqWHg?rel=0&amp;showinfo=0"
-              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div><br>
+
     <!-- <p class="title is-3 mt-5 has-text-centered"> Method Overview </p>
     <img src="images/library.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p><br> -->
 
@@ -155,8 +156,16 @@
       </div>
     </div>
 
+    <video muted autoplay loop> <source src="videos/objaverse1.mp4" type="video/mp4"> </video>
+    <video muted autoplay loop> <source src="videos/objaverse2.mp4" type="video/mp4"> </video>
+
     <p class="title is-3 mt-5 has-text-centered"> PBR-Texture Generation on Generated 3D Object </p>
-    <video muted autoplay loop> <source src="videos/generated1.mp4" type="video/mp4"> </video>
+    <video muted autoplay loop> <source src="videos/20240425_233952new.mp4" type="video/mp4"> </video>
+    <!-- <video muted autoplay loop> <source src="videos/20240425_233952new2.mp4" type="video/mp4"> </video> -->
+    <!-- <video muted autoplay loop controls style="width: 100%; height: auto;"> 
+      <source src="videos/20240425_233952.mp4" type="video/mp4">
+      Your browser does not support the video tag or the file format of this video.
+    </video> -->
 
     <p class="title is-3 mt-5 has-text-centered"> Method Overview </p>
     <img src="images/pipeline.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p><br>
