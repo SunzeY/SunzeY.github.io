@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 初始化每个滑块和视频的功能
-    for (let j = 1; j <= 2; j++) {
+    for (let j = 2; j <= 2; j++) {
         for (let i = 1; i <= 4; i++) {
             initializeSlider(`container${j}_${i}`);
         }
