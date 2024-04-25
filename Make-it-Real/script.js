@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 初始化每个滑块和视频的功能
-    for (let j = 1; j <= 1; j++) {
+    for (let j = 1; j <= 2; j++) {
         for (let i = 1; i <= 4; i++) {
             initializeSlider(`container${j}_${i}`);
         }
@@ -11,27 +11,20 @@ function initializeSlider(containerId) {
     const container = document.getElementById(containerId);
     const slider = container.querySelector('.my-video-slider');
     const videos = container.getElementsByTagName('video');
-    let isDragging = false;
 
-    slider.addEventListener('mousedown', function(event) {
-        isDragging = true;
-        event.preventDefault(); // Prevent default dragging action
-    });
+    container.addEventListener('mousemove', function(event) {
+        const rect = container.getBoundingClientRect();
+        let newLeft = event.clientX - rect.left; // Calculate new position relative to container
 
-    document.addEventListener('mousemove', function(event) {
-        if (isDragging) {
-            const rect = container.getBoundingClientRect();
-            let newLeft = event.clientX - rect.left; // Calculate new position relative to container
-            newLeft = Math.max(0, Math.min(newLeft, rect.width)); // Limit newLeft to container's width
+        // Check if the cursor is inside the container
+        if (event.clientX >= rect.left && event.clientX <= rect.right && 
+            event.clientY >= rect.top && event.clientY <= rect.bottom) {
+            newLeft = Math.max(1, Math.min(newLeft, rect.width - 1)); // Limit newLeft to prevent hiding videos completely
 
             slider.style.left = `${newLeft}px`;
             videos[0].style.clipPath = `polygon(0 0, ${newLeft}px 0, ${newLeft}px 100%, 0 100%)`;
             videos[1].style.clipPath = `polygon(${newLeft}px 0, 100% 0, 100% 100%, ${newLeft}px 100%)`;
         }
-    });
-
-    document.addEventListener('mouseup', function() {
-        isDragging = false;
     });
 
     // Sync videos on load to start at the same time

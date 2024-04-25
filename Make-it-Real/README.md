@@ -1,1 +1,1 @@
-### Project page for the HyperDreamer paper.
+### Project page for Make-it-Real paper.
