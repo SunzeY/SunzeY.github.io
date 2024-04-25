@@ -54,3 +54,7 @@
 .my-video-slider:active {
     background-color: #888; /* 在拖动时显示更深的颜色，增加反馈感 */
 }
+
+.center-text {
+    text-align: center; /* 这会使所有内部的内联元素居中显示 */
+}
