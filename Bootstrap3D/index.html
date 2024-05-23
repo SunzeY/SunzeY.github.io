@@ -17,15 +17,17 @@
   <section class="section">
   <div class="container has-text-centered">
     <!-- paper title -->
-    <p class="title is-2"> <img id="logo" width="40%" src="images/icon/boot.png"> Bootstrap3D: Improving 3D Content Creation with Synthetic Data</p>
+    <p class="title is-2"> <img id="logo" width="4%" src="images/icon/boot.jpg"> Bootstrap3D: Improving 3D Content Creation with Synthetic Data</p>
 
     <p class="title is-5 mt-2"> 
       <a href="https://github.com/SunzeY/" target="_blank">Zeyi Sun</a><sup>1,3</sup>, 
-      <a href="https://wutong16.github.io/" target="_blank">Tong Wu</a><sup>&#9993 3,6</sup>, 
-      <a href="https://liuziwei7.github.io/" target="_blank">Pan Zhang</a><sup>5</sup>,
-      <a href="https://stanford.edu/~gordonwz/" target="_blank">Yuhang Zang</a><sup>6</sup>,
-      <a href="http://dahua.me/" target="_blank">Xiaoyi Dong</a><sup>&#9993 3,4</sup>
-      <a href="https://myownskyw7.github.io/" target="_blank">Jiaqi Wang</a><sup>4</sup>,
+      <a href="https://wutong16.github.io/" target="_blank">Tong Wu</a><sup>2</sup>, 
+      <a href="https://panzhang0212.github.io/" target="_blank">Pan Zhang</a><sup>3</sup>,
+      <a href="https://yuhangzang.github.io/" target="_blank">Yuhang Zang</a><sup>3</sup>,
+      <a href="https://lightdxy.github.io/" target="_blank">Xiaoyi Dong</a><sup>3</sup>,
+      <a href="http://yjxiong.me/" target="_blank">Yuanjun Xiong</a><sup>3</sup>,
+      <a href="http://dahua.me/" target="_blank">Dahua Lin</a><sup>2,3</sup>
+      <a href="https://myownskyw7.github.io/" target="_blank">Jiaqi Wang</a><sup>3</sup>,
     </p>
     <!-- affiliations -->
     <p class="subtitle is-5"> 
@@ -51,99 +53,43 @@
   </div>
 
   <!-- main container -->
-  <div class="container is-max-desktop has-text-centered">
+  <!-- <div class="container is-max-desktop has-text-centered">
     <p class="title is-3 mt-5 has-text-centered"> Video </p>
     <div class="publication-video">
 
       <iframe src="https://www.youtube.com/embed/_j-t8592GCM?rel=0&amp;showinfo=0"
               frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+    </div> -->
     <!-- abstract -->
     <p class="title is-3 mt-5 has-text-centered"> Abstract </p>
     <p class="content is-size-6 has-text-left">
     <!-- <img src="images/teaser.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p> -->
     <p align="left">
-      Physically realistic materials are pivotal in augmenting the realism of 3D assets across various applications and lighting conditions. However, existing 3D assets and generative models often lack authentic material properties. Manual assignment of materials using graphic software is a tedious and time-consuming task. 
+      Recent years have witnessed remarkable progress in multi-view diffusion models for 3D content creation. However, there remains a significant gap in image quality and prompt-following ability compared to 2D diffusion models.
+      A critical bottleneck is the scarcity of high-quality 3D assets with detailed captions. To address this challenge, we propose <b>Bootstrap3D</b>,
+      a novel framework that automatically generates an arbitrary quantity of multi-view images to assist in training multi-view diffusion models. 
+      Specifically, we introduce a data generation pipeline that employs 
+      (1) 2D and video diffusion models to generate multi-view images based on constructed text prompts, 
+      and (2) our fine-tuned 3D-aware <b>MV-LLaVA</b> for filtering high-quality data and rewriting inaccurate captions. 
+      Leveraging this pipeline, we have generated 1 million high-quality synthetic multi-view images with dense descriptive captions to address the shortage of high-quality 3D data. 
+      Furthermore, we present a <b>Training Timestep Reschedule (TTR)</b> strategy that leverages the denoising process to learn multi-view consistency while maintaining the original 2D diffusion prior. 
+      Extensive experiments demonstrate that Bootstrap3D can generate high-quality multi-view images with superior aesthetic quality, image-text alignment, and maintained view consistency.
+      <!-- Physically realistic materials are pivotal in augmenting the realism of 3D assets across various applications and lighting conditions. However, existing 3D assets and generative models often lack authentic material properties. Manual assignment of materials using graphic software is a tedious and time-consuming task. 
       In this paper, we exploit advancements in Multimodal Large Language Models (MLLMs), particularly GPT-4V, to present a novel approach, <b>Make-it-Real</b>: 
       <b>1)</b> We demonstrate that GPT-4V can effectively recognize and describe materials, allowing the construction of a detailed material library. 
       <b>2)</b> Utilizing a combination of visual cues and hierarchical text prompts, GPT-4V precisely identifies and aligns materials with the corresponding components of 3D objects. 
       <b>3)</b> The correctly matched materials are then meticulously applied as reference for the new SVBRDF material generation according to the original diffuse map, significantly enhancing their visual authenticity. 
-      Make-it-Real offers a streamlined integration into the 3D content creation workflow, showcasing its utility as an essential tool for developers of 3D assets.
+      Make-it-Real offers a streamlined integration into the 3D content creation workflow, showcasing its utility as an essential tool for developers of 3D assets. -->
     </p>
 
+    <p class="title is-3 mt-5 has-text-centered">Generated gaussian given text prompts</p>
+    <video muted autoplay loop> <source src="videos/gaussian.mp4" type="video/mp4"> </video>
 
-    <p class="title is-3 mt-5 has-text-centered"> PBR-Texture Generation on Objaverse 3D assets </p>
-    <div class="my-video-row">
-      <!-- 循环4次，每个 container 对应一个视频和滑块 -->
-      <div class="my-video-container" id="container1_1">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/truck/truck_1.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/truck/truck_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-      <div class="my-video-container" id="container1_2">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/cup/cup_1.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/cup/cup_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-      <div class="my-video-container" id="container1_3">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/boot/boots_1.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/boot/boots_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-      <div class="my-video-container" id="container1_4">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/phone/phone_1.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/phone/phone_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-    </div>
-    <div class="my-video-row">
-      <div class="my-video-container" id="container2_1">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/bath/bath.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/bath/bath_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-      <div class="my-video-container" id="container2_2">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/globe/globe.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/globe/globe_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-      <div class="my-video-container" id="container2_3">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/vase/vase.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/vase/vase_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-      <div class="my-video-container" id="container2_4">
-          <div class="my-video-video-container">
-              <video class="my-video-video" src="videos/gun/gun.mp4" autoplay loop muted></video>
-              <video class="my-video-video" src="videos/gun/gun_ori.mp4" autoplay loop muted></video>
-          </div>
-          <div class="my-video-slider"></div>
-      </div>
-    </div>
-    <video muted autoplay loop> <source src="videos/objaverse.mp4" type="video/mp4"> </video>
-
-    <p class="title is-3 mt-5 has-text-centered"> PBR-Texture Generation on Generated 3D Object </p>
-    <video muted autoplay loop> <source src="videos/generated.mp4" type="video/mp4"> </video>
-
-    <p class="title is-3 mt-5 has-text-centered"> Method Overview </p>
-    <img src="images/pipeline.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p><br>
+    <p class="title is-3 mt-5 has-text-centered"> Generated multi-view image compared to Instant3D </p>
+    <img src="images/mv_image_more.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p><br>
 
     <p align="left">
-      <b>Overall pipeline.</b> This pipeline of Make-it-Real is composed of Multi-View Image Segmentation, MLLM-based Material Matching, and SVBRDF Maps Generation.
+      Prompts are collected from 
     </p>
 
     <p class="title is-3 mt-5 has-text-centered"> Material Library </p>
