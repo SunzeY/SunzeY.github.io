@@ -1,0 +1,78 @@
+/* 主要的行布局样式 */
+.my-video-row {
+    display: flex;
+    justify-content: space-around; /* 使用 space-around 为容器提供更大的间隔 */
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+/* 单个容器的样式 */
+.my-video-container {
+    position: relative;
+    width: 20%; /* 减小宽度，从 24% 调整到 20% */
+    height: 240px; /* 减小高度，从 300px 调整到 240px */
+    overflow: hidden;
+}
+
+/* 视频容器样式，确保视频填满容器 */
+.my-video-video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* 视频标签的样式，确保覆盖整个容器 */
+.my-video-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 覆盖整个父元素，保持宽高比 */
+}
+
+/* 滑块的样式 */
+.my-video-slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%; /* 定位到容器中间 */
+    transform: translateX(-50%); /* 精确居中滑块 */
+    width: 6px; /* 增加滑块的宽度 */
+    background-color: #ddd; /* 设定一个中性色，更容易被注意 */
+    cursor: ew-resize; /* 指示可以左右拖动 */
+    border-radius: 3px; /* 添加圆角，使滑块看起来更柔和、更现代 */
+}
+
+/* 滑块悬停效果 */
+.my-video-slider:hover {
+    background-color: #aaa; /* 悬停时变为较深的颜色 */
+}
+
+/* 滑块活动状态样式 */
+.my-video-slider:active {
+    background-color: #888; /* 在拖动时显示更深的颜色，增加反馈感 */
+}
+
+.center-text {
+    text-align: center; /* 这会使所有内部的内联元素居中显示 */
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

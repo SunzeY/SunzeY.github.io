@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Existing styles and scripts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="icon" href="images/icon/icon.png">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@6/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@6/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <title>Bootstrap3D</title>
+    <!-- Your new styles -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <section class="section">
+  <div class="container has-text-centered">
+    <!-- paper title -->
+    <p class="title is-2"> <img id="logo" width="40%" src="images/icon/boot.png"> Bootstrap3D: Improving 3D Content Creation with Synthetic Data</p>
+
+    <p class="title is-5 mt-2"> 
+      <a href="https://github.com/SunzeY/" target="_blank">Zeyi Sun</a><sup>1,3</sup>, 
+      <a href="https://wutong16.github.io/" target="_blank">Tong Wu</a><sup>&#9993 3,6</sup>, 
+      <a href="https://liuziwei7.github.io/" target="_blank">Pan Zhang</a><sup>5</sup>,
+      <a href="https://stanford.edu/~gordonwz/" target="_blank">Yuhang Zang</a><sup>6</sup>,
+      <a href="http://dahua.me/" target="_blank">Xiaoyi Dong</a><sup>&#9993 3,4</sup>
+      <a href="https://myownskyw7.github.io/" target="_blank">Jiaqi Wang</a><sup>4</sup>,
+    </p>
+    <!-- affiliations -->
+    <p class="subtitle is-5"> 
+      <sup>1</sup> Shanghai Jiao Tong University,
+      <sup>2</sup> The Chinese University of Hong Kong, 
+      <sup>3</sup> Shanghai AI Laboratory,
+      <sup>4</sup> MThreads, Inc.
+    </p>
+    <br>
+    <!-- other links -->
+    <div class="is-flex is-justify-content-center">
+      <span class="icon-text mx-1">
+        <a class="button is-dark" href="https://arxiv.org/abs/2404.16829" role="button" target="_blank"> <span class="icon"> <ion-icon name="document-outline"></ion-icon> </span> <span> Paper </span>  </a>
+      </span>
+      <span class="icon-text mx-1">
+        <a class="button is-dark" href="https://github.com/Aleafy/Make_it_Real/" role="button" target="_blank"> <span class="icon"> <ion-icon name="logo-github"></ion-icon> </span> <span> Code </span> </a>
+      </span>
+      <span class="icon-text mx-1">
+        <a class="button is-dark" target="_blank"> <span class="icon"> <ion-icon name="color-wand-outline"></ion-icon> </span> <span> Demo(Coming Soon) </span> </a>
+      </span>
+    </div><br>
+   
+  </div>
+
+  <!-- main container -->
+  <div class="container is-max-desktop has-text-centered">
+    <p class="title is-3 mt-5 has-text-centered"> Video </p>
+    <div class="publication-video">
+
+      <iframe src="https://www.youtube.com/embed/_j-t8592GCM?rel=0&amp;showinfo=0"
+              frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <!-- abstract -->
+    <p class="title is-3 mt-5 has-text-centered"> Abstract </p>
+    <p class="content is-size-6 has-text-left">
+    <!-- <img src="images/teaser.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p> -->
+    <p align="left">
+      Physically realistic materials are pivotal in augmenting the realism of 3D assets across various applications and lighting conditions. However, existing 3D assets and generative models often lack authentic material properties. Manual assignment of materials using graphic software is a tedious and time-consuming task. 
+      In this paper, we exploit advancements in Multimodal Large Language Models (MLLMs), particularly GPT-4V, to present a novel approach, <b>Make-it-Real</b>: 
+      <b>1)</b> We demonstrate that GPT-4V can effectively recognize and describe materials, allowing the construction of a detailed material library. 
+      <b>2)</b> Utilizing a combination of visual cues and hierarchical text prompts, GPT-4V precisely identifies and aligns materials with the corresponding components of 3D objects. 
+      <b>3)</b> The correctly matched materials are then meticulously applied as reference for the new SVBRDF material generation according to the original diffuse map, significantly enhancing their visual authenticity. 
+      Make-it-Real offers a streamlined integration into the 3D content creation workflow, showcasing its utility as an essential tool for developers of 3D assets.
+    </p>
+
+
+    <p class="title is-3 mt-5 has-text-centered"> PBR-Texture Generation on Objaverse 3D assets </p>
+    <div class="my-video-row">
+      <!-- 循环4次，每个 container 对应一个视频和滑块 -->
+      <div class="my-video-container" id="container1_1">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/truck/truck_1.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/truck/truck_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+      <div class="my-video-container" id="container1_2">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/cup/cup_1.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/cup/cup_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+      <div class="my-video-container" id="container1_3">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/boot/boots_1.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/boot/boots_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+      <div class="my-video-container" id="container1_4">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/phone/phone_1.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/phone/phone_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+    </div>
+    <div class="my-video-row">
+      <div class="my-video-container" id="container2_1">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/bath/bath.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/bath/bath_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+      <div class="my-video-container" id="container2_2">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/globe/globe.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/globe/globe_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+      <div class="my-video-container" id="container2_3">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/vase/vase.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/vase/vase_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+      <div class="my-video-container" id="container2_4">
+          <div class="my-video-video-container">
+              <video class="my-video-video" src="videos/gun/gun.mp4" autoplay loop muted></video>
+              <video class="my-video-video" src="videos/gun/gun_ori.mp4" autoplay loop muted></video>
+          </div>
+          <div class="my-video-slider"></div>
+      </div>
+    </div>
+    <video muted autoplay loop> <source src="videos/objaverse.mp4" type="video/mp4"> </video>
+
+    <p class="title is-3 mt-5 has-text-centered"> PBR-Texture Generation on Generated 3D Object </p>
+    <video muted autoplay loop> <source src="videos/generated.mp4" type="video/mp4"> </video>
+
+    <p class="title is-3 mt-5 has-text-centered"> Method Overview </p>
+    <img src="images/pipeline.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p><br>
+
+    <p align="left">
+      <b>Overall pipeline.</b> This pipeline of Make-it-Real is composed of Multi-View Image Segmentation, MLLM-based Material Matching, and SVBRDF Maps Generation.
+    </p>
+
+    <p class="title is-3 mt-5 has-text-centered"> Material Library </p>
+    <img src="images/lib.png" height="150%" style="margin-left: auto;margin-right: auto;display: block;"/></p><br>
+
+    <p align="left">
+      <b> Material Library.</b> Utilizing GPT-4V
+      model, we develop a material library, meticulously generating and cataloging comprehensive descriptions for each material. This structured repository facilitates hierarchical
+      querying for material allocation in subsequent looking up processes.
+    </p>
+    <!-- citation -->
+    <div class="card mt-4">
+      <header class="card-header">
+        <p class="card-header-title"> Citation </p>
+      </header>
+      <div class="card-content is-size-5 has-text-left">
+<pre><code>
+  @misc{fang2024makeitreal,
+    title={Make-it-Real: Unleashing Large Multimodal Model's Ability for Painting 3D Objects with Realistic Materials}, 
+    author={Ye Fang and Zeyi Sun and Tong Wu and Jiaqi Wang and Ziwei Liu and Gordon Wetzstein and Dahua Lin},
+    year={2024},
+    eprint={2404.16829},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+</code></pre>
+      </div>
+    </div>
+  </div>
+
+
+  </section>
+<p>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+
+</div>
+</p>
+<div class="center-text">
+<!-- <a href="https://clustrmaps.com/site/1bzgi"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=uVAj7gydWIyD0AQWR3NPboT8GvHlNvMR9cAYCUq58m0&cl=ffffff" /></a> -->
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=600&t=tt&d=uVAj7gydWIyD0AQWR3NPboT8GvHlNvMR9cAYCUq58m0&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
