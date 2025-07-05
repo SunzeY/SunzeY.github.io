@@ -17,11 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year Ph.D. student in Shanghai Jiao Tong University.
-I abtain my Bachelor's degree in Computer Science from Beihang University in 2023.
+I am currently a second-year Ph.D. student in Information Engineering at [Shanghai Jiao Tong University](https://ee.sjtu.edu.cn/).
+I abtain my Bachelor's degree in Computer Science from [Beihang University](https://ev.buaa.edu.cn/) in 2023.
 
 My research interest includes multimodal learning, RL and Generative AI.
-
 
 
 # 🔥 News
@@ -31,6 +30,20 @@ My research interest includes multimodal learning, RL and Generative AI.
 
 
 # 📝 Selected Publications (* Equal Contribution)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='image/Bootstrap3D.png' alt="Visual-RFT" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Bootstrap3D: Improving Multi-view Diffusion Model with Synthetic Data](https://github.com/SunzeY/Bootstrap3D)
+
+**Zeyi Sun**, Tong Wu, Pan Zhang, Yuhang Zang, Xiaoyi Dong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
+
+**[ICCV 2025]**
+
+[Github ![](https://img.shields.io/github/stars/SunzeY/Bootstrap3D)](https://github.com/SunzeY/Bootstrap3D) | [Arxiv](https://arxiv.org/abs/2406.00093) | [HF](https://huggingface.co/collections/Zery/bootstrap3d-66503f90d3bb1b461778935d)
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -43,11 +56,11 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 
 <span> Early Exploration of Deepseek-R1's RL strategy to the multimodal field</span>
 
-[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://arxiv.org/abs/2312.03818)
+[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv](https://arxiv.org/abs/2312.03818) | [HF Model](https://huggingface.co/Zery/Qwen2-VL-7B_visual_rft_lisa_IoU_reward)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Alpha-CLIP.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Alpha-CLIP: A CLIP Model Focusing on Wherever Your Want](https://github.com/Liuziyu77/Visual-RFT)
 
@@ -58,11 +71,11 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 <span> Region Level Contrastive Learning Fundation model based on CLIP.</span>
 
 [Github ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://github.com/SunzeY/AlphaCLIP) | 
-[Arxiv ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://arxiv.org/abs/2312.03818)
+[Arxiv](https://arxiv.org/abs/2312.03818) | [HF](https://huggingface.co/collections/Zery/alpha-clip-6641d0c73b2643b9e217247a)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MIA-DPO.png' alt="MIA-DPO" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MIA-DPO.png' alt="MIA-DPO" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RAR:Retrieving And Ranking Augmented MLLMs for Visual Recognition](https://arxiv.org/abs/2403.13805)
@@ -73,13 +86,12 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 
 [**Github** ![](https://img.shields.io/github/stars/Liuziyu77/RAR)](https://github.com/Liuziyu77/RAR)
 </div>
-</div>
+</div> -->
 
 # 🎖 Honors and Awards
-- *2024.06*, Excellent Bachelor's Thesis，Outstanding Undergraduate Graduate.
-- *2023.07*, Meritorious Award, Mathematical Contest in Modeling and Interdisciplinary Contest in Modeling (MCM/ICM), COMAP.
-- *2022.05*, National Second Prize, China Undergraduate Mathematical Contest in Modeling(CUMCM), China Society for Industrial and Applied Mathematics(CSIAM).
-- *2022.05*, Finalist Award, Mathematical Contest in Modeling and Interdisciplinary Contest in Modeling (MCM/ICM), COMAP.
+- *2023.06*, Beihang University Outstanding Graduates (Top 5\%).
+- *2021*,*2022* Beihang University Undergraduate Excellent Scholarship.
+- *2018.05*, NFirst Prize, 35th Chinese Physics Olympiad (CPhO), Provincial Round (ranked 13th).
 
 # 📖 Educations
 - *2023.09 - until now*, P.HD., Shanghai Jiao Tong University.
@@ -88,4 +100,4 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 # 📌 Services
 - Conference reviewer of CVPR, ICCV, ICML, Neurips.
 - Workshop organizing community of <a href='https://vplow.github.io/vplow_4th.html'>VPLOW@CVPR2024</a>.
-- S.T.A.R teaching assistant of OS-2022-Spring in CS department (founded by [Qian Liu](https://siviltaram.github.io/)).
+- S.T.A.R teaching assistant of OS-2022-Spring in CS department, BUAA (founded by [Qian Liu](https://siviltaram.github.io/)).
