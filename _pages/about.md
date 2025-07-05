@@ -17,88 +17,53 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an intern at at <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a>, and pursuing a PhD at Shanghai Jiao Tong University.
+I am currently a second-year Ph.D. student in Shanghai Jiao Tong University.
+I abtain my Bachelor's degree in Computer Science from Beihang University in 2023.
 
-My research interest includes multimodal large language models(MLLMs),  reinforcement fine-tuning(RFT), reinforcement learning from human feedback (RLHF)  and retrieval-argument generation(RAG).
+My research interest includes multimodal learning, RL and Generative AI.
 
 
 
 # 🔥 News
-- [2025-06-26] One paper, Visual-RFT, is accepted by ICCV 2025.
-- [2025-05-14] One paper, InternLM-XComposer2.5-Reward, is accepted by ACL 2025 Findind.
-- [2025-01-23] One paper, MIA-DPO, is accepted by ICLR2025.
-- [2024-10-24] One paper, "MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models," has been rated as the Huggingface **"#1 Paper of the Day"**.
-- [2024-09-28] Two papers, MMDU and MMLONGBENCH-DOC(spotlight), are accepted by NeurIPS2024.
-- [2024-06-18] One paper, "MMDU: A Multi-Turn Multi-Image Dialog Understanding Benchmark and Instruction-Tuning Dataset for LVLMs," has been rated as the Huggingface **"#1 Paper of the Day"**.
-- [2024-06] We are organizing the Visual Perception via Learning in an Open World: The 4th Workshop on Open World Vision and the V3Det Challenge at CVPR 2024.
+- [2025-06-26] BootStrap3D, Visual-RFT, X-Prompt are accepted by ICCV 2025.
+- [2024-09-28] Make-it-Real is accepted by NeurIPS 2024.
+- [2024-03-02] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
 
 
-# 📝 Selected Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-ARFT.png' alt="Visual-RFT" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Visual-ARFT: Visual Agentic Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT/tree/main/Visual-ARFT)
-
-***Ziyu Liu***, Yuhang Zang, Yushan Zou, Zijian Liang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
-
-<span> This work highlights the effectiveness of Visual Agentic Reinforcement Fine-Tuning (Visual-ARFT) for enabling flexible and adaptive reasoning abilities for Large Vision-Language Models (LVLMs). With Visual-ARFT, open-source LVLMs gain the ability to browse websites for real-time information updates and write code to manipulate and analyze input images through cropping, rotation, and other image processing techniques. We also present a Multi-modal Agentic Tool Bench (MAT) with two settings (MAT-Search and MAT-Coding) designed to evaluate LVLMs’ agentic search and coding abilities.</span>
-
-[**Github** ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT)
-</div>
-</div>
+# 📝 Selected Publications (* Equal Contribution)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Visual-RFT: Visual Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT)***[Accepted by ICCV2025!]***
+[Visual-RFT: Visual Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT)
 
-***Ziyu Liu***, Zeyi Sun, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
+Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
 
-<span> We introduce Visual Reinforcement Fine-tuning (Visual-RFT), the first comprehensive adaptation of Deepseek-R1's RL strategy to the multimodal field. We use the Qwen2-VL-2/7B model as our base model and design a rule-based verifiable reward, which is integrated into a GRPO-based reinforcement fine-tuning framework to enhance the performance of LVLMs across various visual perception tasks.</span>
+**[ICCV 2025]**
 
-[**Github** ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT)
+<span> Early Exploration of Deepseek-R1's RL strategy to the multimodal field</span>
+
+[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://arxiv.org/abs/2312.03818)
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Alpha-CLIP: A CLIP Model Focusing on Wherever Your Want](https://github.com/Liuziyu77/Visual-RFT)
+
+**Zeyi Sun\***, Ye Fang*, Tong Wu, Pan Zhang, Yuhang Zang, Shu Kong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
+
+**[CVPR 2024] Strong Accept By All Reviewers**
+
+<span> Region Level Contrastive Learning Fundation model based on CLIP.</span>
+
+[Github ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://github.com/SunzeY/AlphaCLIP) | 
+[Arxiv ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://arxiv.org/abs/2312.03818)
 </div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MIA-DPO.png' alt="MIA-DPO" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MIA-DPO: Multi-Image Augmented Direct Preference Optimization For Large Vision-Language Models](https://arxiv.org/abs/2410.17637)***[Accepted by ICLR2025!]***
-
-***Ziyu Liu***, Yuhang Zang, Xiaoyi Dong, Pan Zhang, Yuhang Cao, Haodong Duan, Conghui He, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
-
-<span> We present Multi-Image Augmented Direct Preference Optimization (MIA-DPO), a visual preference alignment approach that effectively handles multi-image inputs. We use attention values to identify and filter out rejected responses the model may have mistakenly focused on...</span>
-
-[**Github** ![](https://img.shields.io/github/stars/Liuziyu77/MIA-DPO)](https://github.com/Liuziyu77/MIA-DPO)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MMDU.png' alt="MMDU" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MMDU: A Multi-Turn Multi-Image Dialog Understanding Benchmark and Instruction-Tuning Dataset for LVLMs](https://arxiv.org/abs/2406.11833) ***[Accepted by NeurIPS2024!]***
-
-***Ziyu Liu***, Tao Chu, Yuhang Zang, Xilin Wei, Xiaoyi Dong, Pan Zhang, Zijian Liang, Yuanjun Xiong, Yu Qiao, Dahua Lin, Jiaqi Wang
-
-<span> We introduce MMDU, a comprehensive benchmark, and MMDU-45k, a large-scale instruction tuning dataset, designed to evaluate and improve LVLMs' abilities in multi-turn and multi-image conversations.Our benchmark showcases a conversational setting with a maximum of 20 images and 17 turns. With a maximum of 18k text+image tokens, MMDU evaluates the capacity of LVLMs to process and comprehend extended contextual information with a long context history.</span>
-
-[**Github** ![](https://img.shields.io/github/stars/Liuziyu77/MMDU)](https://github.com/Liuziyu77/MMDU)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/V3Det_challenge.png' alt="V3Det_challenge" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[V3Det Challenge 2024 on Vast Vocabulary and Open Vocabulary Object Detection: Methods and Results](https://arxiv.org/abs/2406.11739)
-
-Jiaqi Wang, Yuhang Zang, Pan Zhang, Tao Chu, Yuhang Cao, Zeyi Sun, ***Ziyu Liu***, Xiaoyi Dong, Tong Wu, Dahua Lin, Zeming Chen, Zhi Wang, Lingchen Meng, Wenhao Yao, Jianwei Yang, Sihong Wu, Zhineng Chen, Zuxuan Wu, Yu-Gang Jiang, Peixi Wu, Bosong Chai, Xuan Nie, Longquan Yan, Zeyu Wang, Qifan Zhou, Boning Wang, Jiaqi Huang, Zunnan Xu, Xiu Li, Kehong Yuan, Yanyan Zu, Jiayao Ha, Qiong Gao, Licheng Jiao
-
-[**Homepage**](https://v3det.openxlab.org.cn/challenge)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/RAR.png' alt="RAR" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
 [RAR:Retrieving And Ranking Augmented MLLMs for Visual Recognition](https://arxiv.org/abs/2403.13805)
 
@@ -113,12 +78,6 @@ Jiaqi Wang, Yuhang Zang, Pan Zhang, Tao Chu, Yuhang Cao, Zeyi Sun, ***Ziyu Liu**
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MMlong.png' alt="RAR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MMLONGBENCH-DOC: Benchmarking Long-context Document Understanding with Visualizations](https://arxiv.org/abs/2407.01523) ***[Accepted by NeurIPS2024!(Spotlight)]***
-
-Yubo Ma, Yuhang Zang, Liangyu Chen, Meiqi Chen, Yizhu Jiao, Xinze Li, Xinyuan Lu, ***Ziyu Liu***, Yan Ma, Xiaoyi Dong, Pan Zhang, Liangming Pan, Yu-Gang Jiang, Jiaqi Wang, Yixin Cao, Aixin Sun
-
-[**Github** ![](https://img.shields.io/github/stars/mayubo2333/MMLongBench-Doc)](https://github.com/mayubo2333/MMLongBench-Doc)
-</div>
 </div>
 
 
@@ -129,8 +88,10 @@ Yubo Ma, Yuhang Zang, Liangyu Chen, Meiqi Chen, Yizhu Jiao, Xinze Li, Xinyuan Lu
 - *2022.05*, Finalist Award, Mathematical Contest in Modeling and Interdisciplinary Contest in Modeling (MCM/ICM), COMAP.
 
 # 📖 Educations
-- *2024.09 - until now*, PHD, Shanghai Jiao Tong University.
+- *2023.09 - until now*, P.HD., Shanghai Jiao Tong University.
+- *2019.09 - 2023.06*, Bachelor's degree, Beihang University
 
-# 📌 Activities
-- Conference reviewer of ICLR, Neurips.
-- Workshop organizing community of <a href='https://vplow.github.io/vplow_4th.html'>VPLOW@CVPR2024</a>
+# 📌 Services
+- Conference reviewer of CVPR, ICCV, ICML, Neurips.
+- Workshop organizing community of <a href='https://vplow.github.io/vplow_4th.html'>VPLOW@CVPR2024</a>.
+- S.T.A.R teaching assistant of OS-2022-Spring in CS department founded by [Qian Liu](https://siviltaram.github.io/).
