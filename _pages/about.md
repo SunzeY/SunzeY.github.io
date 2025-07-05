@@ -31,7 +31,7 @@ My research interest includes multimodal learning, RL and Generative AI.
 
 # 📝 Selected Publications (* Equal Contribution)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='image/Bootstrap3D.png' alt="Visual-RFT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Bootstrap3D.png' alt="BootStrap3D" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Bootstrap3D: Improving Multi-view Diffusion Model with Synthetic Data](https://github.com/SunzeY/Bootstrap3D)
@@ -89,15 +89,15 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 </div> -->
 
 # 🎖 Honors and Awards
-- *2023.06*, Beihang University Outstanding Graduates (Top 5\%).
+- *2023.06*, Beihang University Outstanding Graduates (Top 5%).
 - *2021*,*2022* Beihang University Undergraduate Excellent Scholarship.
 - *2018.05*, NFirst Prize, 35th Chinese Physics Olympiad (CPhO), Provincial Round (ranked 13th).
 
 # 📖 Educations
-- *2023.09 - until now*, P.HD., Shanghai Jiao Tong University.
-- *2019.09 - 2023.06*, Bachelor's degree, Beihang University
+- *2023.09 - until now*, P.HD. at Shanghai Jiao Tong University (SJTU).
+- *2019.09 - 2023.06*, Bachelor in Computer Science, Beihang University (BUAA).
 
 # 📌 Services
-- Conference reviewer of CVPR, ICCV, ICML, Neurips.
+- Conference reviewer of CVPR, ICCV, ICML, NeurIPS.
 - Workshop organizing community of <a href='https://vplow.github.io/vplow_4th.html'>VPLOW@CVPR2024</a>.
 - S.T.A.R teaching assistant of OS-2022-Spring in CS department, BUAA (founded by [Qian Liu](https://siviltaram.github.io/)).
