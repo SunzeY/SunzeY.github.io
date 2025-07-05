@@ -45,6 +45,7 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 
 [Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://arxiv.org/abs/2312.03818)
 </div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -59,7 +60,7 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 [Github ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://github.com/SunzeY/AlphaCLIP) | 
 [Arxiv ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://arxiv.org/abs/2312.03818)
 </div>
-
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MIA-DPO.png' alt="MIA-DPO" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -94,4 +95,4 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 # 📌 Services
 - Conference reviewer of CVPR, ICCV, ICML, Neurips.
 - Workshop organizing community of <a href='https://vplow.github.io/vplow_4th.html'>VPLOW@CVPR2024</a>.
-- S.T.A.R teaching assistant of OS-2022-Spring in CS department founded by [Qian Liu](https://siviltaram.github.io/).
+- S.T.A.R teaching assistant of OS-2022-Spring in CS department (founded by [Qian Liu](https://siviltaram.github.io/)).
