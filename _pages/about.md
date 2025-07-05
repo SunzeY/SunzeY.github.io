@@ -62,7 +62,7 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Alpha-CLIP.jpg' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Alpha-CLIP: A CLIP Model Focusing on Wherever Your Want](https://github.com/Liuziyu77/Visual-RFT)
+[Alpha-CLIP: A CLIP Model Focusing on Wherever Your Want](https://github.com/SunzeY/AlphaCLIP)
 
 **Zeyi Sun\***, Ye Fang*, Tong Wu, Pan Zhang, Yuhang Zang, Shu Kong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
 
