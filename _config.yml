@@ -44,7 +44,7 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  dblp             : ""
+  dblp             :
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
@@ -52,6 +52,7 @@ author:
   steam            :
   tumblr           :
   twitter          : "https://x.com/sunzeyi6"
+  blog             : "https://www.cnblogs.com/zery-blog"
   vine             :
   weibo            :
   xing             :
