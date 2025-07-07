@@ -75,6 +75,19 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/GPT4Point.jpg' alt="Visual-RFT" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[GPT4Point: A Unified Framework for Point-Language Understanding and Generation](https://github.com/Pointcept/GPT4Point)
+
+Zhangyang Qi*, Ye Fang*, **Zeyi Sun\***, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dahua Lin, Hengshuang Zhao
+
+**[CVPR 2024] Highlight**
+
+[Github ![](https://img.shields.io/github/stars/Pointcept/GPT4Point)](https://github.com/Pointcept/GPT4Point) | 
+[Arxiv](https://arxiv.org/abs/2312.02980)
+</div>
+</div>
+
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MIA-DPO.png' alt="MIA-DPO" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
