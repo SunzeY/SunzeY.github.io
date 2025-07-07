@@ -44,7 +44,7 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  dblp             :
+  # dblp             : https://sunzey.github.io/docs/cv.pdf
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :

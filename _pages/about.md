@@ -40,7 +40,7 @@ My research interest includes multimodal learning, RL and Generative AI.
 
 **[ICCV 2025]**
 
-[Github ![](https://img.shields.io/github/stars/SunzeY/Bootstrap3D)](https://github.com/SunzeY/Bootstrap3D) | [Arxiv](https://arxiv.org/abs/2406.00093) | [HF](https://huggingface.co/collections/Zery/bootstrap3d-66503f90d3bb1b461778935d)
+[Github ![](https://img.shields.io/github/stars/SunzeY/Bootstrap3D)](https://github.com/SunzeY/Bootstrap3D) | [Arxiv](https://arxiv.org/abs/2406.00093) | [HF](https://huggingface.co/collections/Zery/bootstrap3d-66503f90d3bb1b461778935d) | [Page](https://sunzey.github.io/Bootstrap3D/)
 </div>
 </div>
 
@@ -84,7 +84,7 @@ Ye Fang*, **Zeyi Sun\***, Tong Wu, Jiaqi Wang, Ziwei Liu, Gordon Wetzstein, Dahu
 <span> Region Level Contrastive Learning Fundation model based on CLIP.</span>
 
 [Github ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://github.com/SunzeY/AlphaCLIP) | 
-[Arxiv](https://arxiv.org/abs/2312.03818) | [HF](https://huggingface.co/collections/Zery/alpha-clip-6641d0c73b2643b9e217247a)
+[Arxiv](https://arxiv.org/abs/2312.03818) | [HF](https://huggingface.co/collections/Zery/alpha-clip-6641d0c73b2643b9e217247a) [Page](https://aleafy.github.io/alpha-clip/)
 </div>
 </div>
 
@@ -97,7 +97,7 @@ Zhangyang Qi*, Ye Fang*, **Zeyi Sun\***, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dahua
 **[CVPR 2024] Highlight**
 
 [Github ![](https://img.shields.io/github/stars/Pointcept/GPT4Point)](https://github.com/Pointcept/GPT4Point) | 
-[Arxiv](https://arxiv.org/abs/2312.02980)
+[Arxiv](https://arxiv.org/abs/2312.02980) | [Page](https://gpt4point.github.io/)
 </div>
 </div>
 
