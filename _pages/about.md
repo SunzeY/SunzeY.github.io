@@ -60,6 +60,19 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Make-It-Real.jpg' alt="Visual-RFT" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Make-it-Real: Unleashing Large Multimodal Model for Painting 3D Objects with Realistic Materials](https://github.com/Aleafy/Make_it_Real)
+
+Ye Fang*, **Zeyi Sun\***, Tong Wu, Jiaqi Wang, Ziwei Liu, Gordon Wetzstein, Dahua Lin
+
+**[NeurIPS 2024]**
+
+[Github ![](https://img.shields.io/github/stars/Aleafy/Make_it_Real)](https://github.com/Aleafy/Make_it_Real/) | 
+[Arxiv](https://arxiv.org/abs/2404.16829) | [Page](https://sunzey.github.io/Make-it-Real/)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Alpha-CLIP.jpg' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Alpha-CLIP: A CLIP Model Focusing on Wherever Your Want](https://github.com/SunzeY/AlphaCLIP)
