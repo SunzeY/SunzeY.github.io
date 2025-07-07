@@ -92,7 +92,7 @@ Ye Fang*, **Zeyi Sun\***, Tong Wu, Jiaqi Wang, Ziwei Liu, Gordon Wetzstein, Dahu
 <div class='paper-box-text' markdown="1">
 [GPT4Point: A Unified Framework for Point-Language Understanding and Generation](https://github.com/Pointcept/GPT4Point)
 
-Zhangyang Qi*, Ye Fang*, **Zeyi Sun\***, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dahua Lin, Hengshuang Zhao
+Zhangyang Qi\*, Ye Fang\*, **Zeyi Sun\***, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dahua Lin, Hengshuang Zhao
 
 **[CVPR 2024] Highlight**
 
