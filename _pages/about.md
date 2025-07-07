@@ -84,7 +84,7 @@ Ye Fang*, **Zeyi Sun\***, Tong Wu, Jiaqi Wang, Ziwei Liu, Gordon Wetzstein, Dahu
 <span> Region Level Contrastive Learning Fundation model based on CLIP.</span>
 
 [Github ![](https://img.shields.io/github/stars/SunzeY/AlphaCLIP)](https://github.com/SunzeY/AlphaCLIP) | 
-[Arxiv](https://arxiv.org/abs/2312.03818) | [HF](https://huggingface.co/collections/Zery/alpha-clip-6641d0c73b2643b9e217247a) [Page](https://aleafy.github.io/alpha-clip/)
+[Arxiv](https://arxiv.org/abs/2312.03818) | [HF](https://huggingface.co/collections/Zery/alpha-clip-6641d0c73b2643b9e217247a) | [Page](https://aleafy.github.io/alpha-clip/)
 </div>
 </div>
 
