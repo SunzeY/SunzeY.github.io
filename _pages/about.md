@@ -28,7 +28,7 @@ My research interest includes multimodal learning, RL and Generative AI.
 - [2024-09-28] Make-it-Real is accepted by NeurIPS 2024.
 - [2024-03-02] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
 
-# Preprints
+# 📄 Preprints
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/SEAgent.jpg' alt="SEAgent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
