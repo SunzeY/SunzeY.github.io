@@ -28,6 +28,21 @@ My research interest includes multimodal learning, RL and Generative AI.
 - [2024-09-28] Make-it-Real is accepted by NeurIPS 2024.
 - [2024-03-02] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
 
+# Preprints
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/SEAgent.jpg' alt="SEAgent" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://github.com/SunzeY/SEAgent)
+
+Zeyi Sun, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Tong Wu, Dahua Lin, Jiaqi Wang
+
+<span> Early Exploration of Self-Evolving Agent for Computer Use with RL.</span>
+
+[Github ![](https://img.shields.io/github/stars/SunzeY/SEAgent)](https://github.com/SunzeY/SEAgent) | [Arxiv](https://arxiv.org/abs/2508.04700) | [HF](https://huggingface.co/collections/Zery/seagent-689421166100c44e88676cc9)
+</div>
+</div>
+
 
 # 📝 Selected Publications (* Equal Contribution)
 
