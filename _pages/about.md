@@ -33,6 +33,19 @@ My research interest includes multimodal learning, RL and Generative AI.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/SEAgent.jpg' alt="SEAgent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+[CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://github.com/SunzeY/SEAgent)
+
+Zeyi Sun*, Yuhang Cao*, Jianze Liang*, Qiushi Sun*, Ziyu Liu*, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
+
+<span> Early Exploration of Self-Evolving Agent for Computer Use with RL.</span>
+
+[Github ![](https://img.shields.io/github/stars/OpenIXCLab/CODA)](https://github.com/OpenIXCLab/CODA) | [Arxiv](https://arxiv.org/abs/2508.20096) | [HF](https://huggingface.co/collections/Zery/coda-68afce6edd5c1db147a94494)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/CODA.jpg' alt="CODA" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://github.com/SunzeY/SEAgent)
 
 Zeyi Sun, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Tong Wu, Dahua Lin, Jiaqi Wang
