@@ -35,7 +35,7 @@ My research interest includes multimodal learning, RL and Generative AI.
 
 [CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://github.com/OpenIXCLab/CODA)
 
-**Zeyi Sun\***, Yuhang Cao\*, Jianze Liang*, Qiushi Sun*, Ziyu Liu*, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
+**Zeyi Sun\***, Yuhang Cao\*, Jianze Liang\*, Qiushi Sun\*, Ziyu Liu\*, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
 
 <span> Early Exploration of Decoupling planner with fixed grounder for Computer Use Agent with RL.</span>
 
