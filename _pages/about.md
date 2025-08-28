@@ -30,10 +30,10 @@ My research interest includes multimodal learning, RL and Generative AI.
 
 # 📄 Preprints
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/SEAgent.jpg' alt="SEAgent" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/CODA.jpg' alt="CODA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://github.com/SunzeY/SEAgent)
+[CODA: Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning](https://github.com/OpenIXCLab/CODA)
 
 Zeyi Sun*, Yuhang Cao*, Jianze Liang*, Qiushi Sun*, Ziyu Liu*, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
 
@@ -43,7 +43,7 @@ Zeyi Sun*, Yuhang Cao*, Jianze Liang*, Qiushi Sun*, Ziyu Liu*, Zhixiong Zhang, Y
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/CODA.jpg' alt="CODA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/SEAgent.jpg' alt="SEAgent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://github.com/SunzeY/SEAgent)
