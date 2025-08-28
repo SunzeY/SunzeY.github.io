@@ -37,7 +37,7 @@ My research interest includes multimodal learning, RL and Generative AI.
 
 Zeyi Sun*, Yuhang Cao*, Jianze Liang*, Qiushi Sun*, Ziyu Liu*, Zhixiong Zhang, Yuhang Zang, Xiaoyi Dong, Kai Chen, Dahua Lin, Jiaqi Wang
 
-<span> Early Exploration of Self-Evolving Agent for Computer Use with RL.</span>
+<span> Early Exploration of Decoupling planner and fixed grounder for Computer Use Agent with RL.</span>
 
 [Github ![](https://img.shields.io/github/stars/OpenIXCLab/CODA)](https://github.com/OpenIXCLab/CODA) | [Arxiv](https://arxiv.org/abs/2508.20096) | [HF](https://huggingface.co/collections/Zery/coda-68afce6edd5c1db147a94494)
 </div>
