@@ -17,10 +17,10 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year Ph.D. student in Information Engineering at [Shanghai Jiao Tong University](https://ee.sjtu.edu.cn/).
+I am currently a third-year Ph.D. student in Information Engineering at [Shanghai Jiao Tong University](https://ee.sjtu.edu.cn/).
 I abtain my Bachelor's degree in Computer Science from [Beihang University](https://ev.buaa.edu.cn/) in 2023.
 
-My research interest includes multimodal learning, RL and Generative AI.
+My research interest includes multimodal learning, RL.
 
 
 # 🔥 News
