@@ -31,17 +31,27 @@ My research interest includes multimodal learning, RL.
 # 📄 Preprints
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/seed20.png' alt="Seed2.0" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf)
+
 Contribute to General Agent.
 
 [Page](https://seed.bytedance.com/en/seed2) | [PDF](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf)
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/seed18.png' alt="Seed1.8" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [Seed1.8 Model Card: Towards Generalized Real-World Agency](https://arxiv.org/abs/2603.20633)
+
 Contribute to GUI Agent.
 
 [Github ![](https://img.shields.io/github/stars/OpenIXCLab/CODA)](https://github.com/ByteDance-Seed/Seed-1.8) | [Arxiv](https://arxiv.org/abs/2603.20633)
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/CODA.jpg' alt="CODA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
