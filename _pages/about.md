@@ -24,6 +24,7 @@ My research interest includes multimodal learning, RL.
 
 
 # 🔥 News
+- [2026-03-27] Excited that Visual-RFT ranks in Top 2 of the [most influential ICCV 2025 papers](https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/)
 - [2025-06-26] BootStrap3D, Visual-RFT, X-Prompt are accepted by ICCV 2025.
 - [2024-09-28] Make-it-Real is accepted by NeurIPS 2024.
 - [2024-03-02] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
@@ -85,6 +86,20 @@ Contribute to GUI Agent.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Bootstrap3D.png' alt="BootStrap3D" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+[Visual-RFT: Visual Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT)
+
+Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
+
+**[ICCV 2025]**
+
+<span> Early Exploration of Deepseek-R1's RL strategy to the multimodal field</span>
+
+<a href="https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/" style="color: #c62828;">Top2 most influential ICCV 2025 papers</a>
+
+[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv](https://arxiv.org/abs/2312.03818) | [HF Model](https://huggingface.co/Zery/Qwen2-VL-7B_visual_rft_lisa_IoU_reward)
+</div>
+</div>
+
 [Bootstrap3D: Improving Multi-view Diffusion Model with Synthetic Data](https://github.com/SunzeY/Bootstrap3D)
 
 **Zeyi Sun**, Tong Wu, Pan Zhang, Yuhang Zang, Xiaoyi Dong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
@@ -98,17 +113,7 @@ Contribute to GUI Agent.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Visual-RFT: Visual Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT)
 
-Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
-
-**[ICCV 2025]**
-
-<span> Early Exploration of Deepseek-R1's RL strategy to the multimodal field</span>
-
-[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv](https://arxiv.org/abs/2312.03818) | [HF Model](https://huggingface.co/Zery/Qwen2-VL-7B_visual_rft_lisa_IoU_reward)
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Make-It-Real.jpg' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
