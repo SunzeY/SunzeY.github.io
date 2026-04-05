@@ -24,7 +24,7 @@ My research interest includes multimodal learning, RL.
 
 
 # 🔥 News
-- [2026-03-27] Excited that Visual-RFT ranks in Top 2 of the [most influential ICCV 2025 papers](https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/)
+- [2026-03-27] Excited that Visual-RFT ranks in top2 of the [most influential ICCV 2025 papers](https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/)
 - [2025-06-26] BootStrap3D, Visual-RFT, X-Prompt are accepted by ICCV 2025.
 - [2024-09-28] Make-it-Real is accepted by NeurIPS 2024.
 - [2024-03-02] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
