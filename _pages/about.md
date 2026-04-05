@@ -83,7 +83,7 @@ Contribute to GUI Agent.
 
 # 📝 Selected Publications (* Equal Contribution)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Bootstrap3D.png' alt="BootStrap3D" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT)
@@ -100,6 +100,10 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Bootstrap3D.png' alt="BootStrap3D" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
 [Bootstrap3D: Improving Multi-view Diffusion Model with Synthetic Data](https://github.com/SunzeY/Bootstrap3D)
 
 **Zeyi Sun**, Tong Wu, Pan Zhang, Yuhang Zang, Xiaoyi Dong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
@@ -109,10 +113,6 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 [Github ![](https://img.shields.io/github/stars/SunzeY/Bootstrap3D)](https://github.com/SunzeY/Bootstrap3D) | [Arxiv](https://arxiv.org/abs/2406.00093) | [HF](https://huggingface.co/collections/Zery/bootstrap3d-66503f90d3bb1b461778935d) | [Page](https://sunzey.github.io/Bootstrap3D/)
 </div>
 </div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Make-It-Real.jpg' alt="Visual-RFT" width="100%"></div></div>
