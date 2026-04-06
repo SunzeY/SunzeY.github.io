@@ -50,7 +50,7 @@ Contribute to General Agent.
 
 Contribute to GUI Agent.
 
-[Github ![](https://img.shields.io/github/stars/OpenIXCLab/CODA)](https://github.com/ByteDance-Seed/Seed-1.8) | [Arxiv](https://arxiv.org/abs/2603.20633)
+[Github ![](https://img.shields.io/github/stars/ByteDance-Seed/Seed-1.8)](https://github.com/ByteDance-Seed/Seed-1.8) | [Arxiv](https://arxiv.org/abs/2603.20633)
 </div>
 </div>
 
