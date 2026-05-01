@@ -24,10 +24,13 @@ My research interest includes multimodal learning, RL.
 
 
 # 🔥 News
-- [2026-03-27] Excited that Visual-RFT ranks in top2 of the [most influential ICCV 2025 papers](https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/)
-- [2025-06-26] BootStrap3D, Visual-RFT, X-Prompt are accepted by ICCV 2025.
-- [2024-09-28] Make-it-Real is accepted by NeurIPS 2024.
-- [2024-03-02] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
+- [2026-04] SEAgent is accepted by ICML 2026.
+- [2026-03] Excited that Visual-RFT ranks in top2 of the [most influential ICCV 2025 papers](https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/)
+- [2026-02] We release Seed2.0, where I contribute to general agent.
+- [2025-12] We release Seed1.8, where I contribute to GUI agent.
+- [2025-06] BootStrap3D, Visual-RFT, X-Prompt are accepted by ICCV 2025.
+- [2024-09] Make-it-Real is accepted by NeurIPS 2024.
+- [2024-03] Alpha-CLIP, GPT4Point are accepted by CVPR 2024.
 
 # 📄 Preprints
 
@@ -67,12 +70,17 @@ Contribute to GUI Agent.
 </div>
 </div>
 
+
+# 📝 Selected Publications (* Equal Contribution)
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/SEAgent.jpg' alt="SEAgent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience](https://github.com/SunzeY/SEAgent)
 
 **Zeyi Sun**, Ziyu Liu, Yuhang Zang, Yuhang Cao, Xiaoyi Dong, Tong Wu, Dahua Lin, Jiaqi Wang
+
+**[ICML 2026]**
 
 <span> Early Exploration of Self-Evolving Agent for Computer Use with RL.</span>
 
@@ -81,14 +89,12 @@ Contribute to GUI Agent.
 </div>
 
 
-# 📝 Selected Publications (* Equal Contribution)
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/Visual-RFT.png' alt="Visual-RFT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Visual-RFT: Visual Reinforcement Fine-Tuning](https://github.com/Liuziyu77/Visual-RFT)
 
-Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
+Ziyu Liu\*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, Dahua Lin, Jiaqi Wang
 
 **[ICCV 2025]**
 
@@ -96,7 +102,7 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 
 <a href="https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/" style="color: #c62828;">Top2 most influential ICCV 2025 papers</a>
 
-[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv](https://arxiv.org/abs/2312.03818) | [HF Model](https://huggingface.co/Zery/Qwen2-VL-7B_visual_rft_lisa_IoU_reward)
+[Github ![](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT)](https://github.com/Liuziyu77/Visual-RFT) | [Arxiv](https://arxiv.org/abs/2503.01785) | [HF Model](https://huggingface.co/Zery/Qwen2-VL-7B_visual_rft_lisa_IoU_reward)
 </div>
 </div>
 
@@ -111,6 +117,19 @@ Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Xiaoyi Dong, Yuhang Cao, Haodong Duan, D
 **[ICCV 2025]**
 
 [Github ![](https://img.shields.io/github/stars/SunzeY/Bootstrap3D)](https://github.com/SunzeY/Bootstrap3D) | [Arxiv](https://arxiv.org/abs/2406.00093) | [HF](https://huggingface.co/collections/Zery/bootstrap3d-66503f90d3bb1b461778935d) | [Page](https://sunzey.github.io/Bootstrap3D/)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/RAR.png' alt="RAR" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RAR: Retrieving And Ranking Augmented MLLMs for Visual Recognition](https://arxiv.org/abs/2403.13805)
+
+Ziyu Liu*, **Zeyi Sun\***, Yuhang Zang, Wei Li, Pan Zhang, Xiaoyi Dong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
+
+**[IEEE Transactions on Image Processing]**
+
+[**Github** ![](https://img.shields.io/github/stars/Liuziyu77/RAR)](https://github.com/Liuziyu77/RAR)
 </div>
 </div>
 
@@ -156,18 +175,7 @@ Zhangyang Qi\*, Ye Fang\*, **Zeyi Sun\***, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dah
 </div>
 </div>
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/MIA-DPO.png' alt="MIA-DPO" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[RAR:Retrieving And Ranking Augmented MLLMs for Visual Recognition](https://arxiv.org/abs/2403.13805)
-
-***Ziyu Liu***, Zeyi Sun, Yuhang Zang, Wei Li, Pan Zhang, Xiaoyi Dong, Yuanjun Xiong, Dahua Lin, Jiaqi Wang
-
-<span> Combining retrieving and ranking with multi-modal large language models to revolutionize perception tasks such as fine-grained recognition, zero-shot image recognition, and few-shot object recognition. Our method opens up new avenues for research in augmenting the MLLM’s abilities with the retrieving-augmented solution and could be beneficial for other tasks such as reasoning and generation in future works.</span>
-
-[**Github** ![](https://img.shields.io/github/stars/Liuziyu77/RAR)](https://github.com/Liuziyu77/RAR)
-</div>
-</div> -->
 
 # 🎖 Honors and Awards
 - *2023.06*, Beihang University Outstanding Graduates (Top 5%).
