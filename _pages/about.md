@@ -187,6 +187,6 @@ Zhangyang Qi\*, Ye Fang\*, **Zeyi Sun\***, Xiaoyang Wu, Tong Wu, Jiaqi Wang, Dah
 - *2019.09 - 2023.06*, Bachelor in Computer Science, Beihang University (BUAA).
 
 # 📌 Services
-- Conference reviewer of CVPR, ICCV, ICML, NeurIPS.
+- Conference reviewer of CVPR, ICCV, ECCV, ICML, ICLR, NeurIPS.
 - Workshop organizing community of <a href='https://vplow.github.io/vplow_4th.html'>VPLOW@CVPR2024</a>.
 - S.T.A.R teaching assistant of OS-2022-Spring in CS department, BUAA (founded by [Qian Liu](https://siviltaram.github.io/)).
