@@ -24,6 +24,7 @@ My research interest includes multimodal learning, RL.
 
 
 # 🔥 News
+- [2026-06] We release Seed2.1, where I contribute to general agent.
 - [2026-04] SEAgent is accepted by ICML 2026.
 - [2026-03] Excited that Visual-RFT ranks in top2 of the [most influential ICCV 2025 papers](https://www.paperdigest.org/2026/03/most-influential-iccv-papers-2026-03-version/)
 - [2026-02] We release Seed2.0, where I contribute to general agent.
@@ -34,14 +35,26 @@ My research interest includes multimodal learning, RL.
 
 # 📄 Preprints
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/seed21.png' alt="Seed2.1" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Seed2.1 Model Card: Agentic Intelligence for Productivity](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf)
+
+Contribute to Computer Use Agent.
+
+[Page](https://seed.bytedance.com/en/seed2_1) | [PDF](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2.1/Seed2_1_Model_Card.pdf)
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/seed20.png' alt="Seed2.0" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf)
+[Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity](https://arxiv.org/abs/2607.00248)
 
 Contribute to General Agent.
 
-[Page](https://seed.bytedance.com/en/seed2) | [PDF](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf)
+[Page](https://seed.bytedance.com/en/seed2) | [PDF](https://arxiv.org/abs/2607.00248)
 </div>
 </div>
 
